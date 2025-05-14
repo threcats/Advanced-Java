@@ -57,7 +57,6 @@ Unit and End - to - End Testing: The application comes with built - in support f
 ```bash
 git clone <repository-url>
 ```
-![图片描述](images/screenshot1.png)
 
 ** Note**: Replace `<repository-url>` with the actual URL of the Git repository.
 
@@ -73,30 +72,30 @@ git clone <repository-url>
 ```bash
 mvn clean install
 ```
-![图片描述](images/screenshot3.png)
+![下载依赖](images/screenshot3.png)
 
 
 **Note**: This command will clean the previous build artifacts and then compile, test, and package the Java project.
 
-## 3.2 Angular Front - end  --by pangyadan
+## 3.2 Angular Front - end  
 1. Navigate to the front - end directory: Open a new terminal and navigate to the `src/main/UI` directory.
 2. Install the dependencies: Run the following command:
 ```bash
 npm install
 ```
-![图片描述](images/screenshot5.png)
+![安装项目依赖](images/screenshot4.png)
 
 3.Ensure that the Angular CLI is installed globally (command line tool) Install the Angular CLI
 Install Angular CLI globally via npm (Node.js package manager):
 ```bash
 npm install -g @angular/cli
 ```
-![图片描述](images/screenshot5.png)
+![确保全局安装了 Angular CLI（命令行工具）](images/screenshot5.png)
 4. Build the Angular project: Run the following command:
 ```bash
 ng build
 ```
-![图片描述](images/screenshot6.png)
+![构建 Angular 项目](images/screenshot6.png)
 
 **Note**: The build artifacts will be stored in the `dist/` directory.
 
@@ -108,7 +107,7 @@ ng build
 ```bash
 mvn spring - boot:run
 ```
-![图片描述](images/screenshot2.png)
+![运行 Spring Boot 应用程序](images/screenshot2.png)
 
 **Note**: This will start the Spring Boot application on the default port (usually 8080).
 
@@ -119,25 +118,25 @@ mvn spring - boot:run
 ng serve
 ```
 **Note**: The Angular application will be available at `http://localhost:4200`.
-![图片描述](images/screenshot7.png)
+![启动 Angular 开发服务器](images/screenshot7.png)
 # 5. Using the Hotel Reservation System
 
 ## 5.1 Booking a Room
 1. Open the application in your browser: Go to `http://localhost:4200` in your web browser.
-   ![图片描述](images/screenshot8.png)
+   ![打开浏览器，访问 http://localhost:4200](images/screenshot8.png)
 2. Enter check - in and check - out dates: Fill in the check - in and check - out dates in the "Book a Room" form.
 3. Click the "Submit" button: After entering the dates, click the "Submit" button.
-   **Note**: The application will display the available rooms based on the selected dates.(Author: [pangyadan])
-   ![图片描述](images/screenshot9.png)
+   **Note**: The application will display the available rooms based on the selected dates.(Author: [庞雅丹])
+   ![输入入住和退房日期](images/screenshot9.png)
 
 ## 5.2 Reserving a Room 
 1. Select a room: In the "Available Rooms" section, find the room you want to reserve.
 2. Click the "Reserve" button: Click the "Reserve" button next to the selected room.
    **Note**: This will create a reservation for the selected room.
-   ![图片描述](images/screenshot10.png)
+   ![预订指定房间](images/screenshot10.png)
 
 
-# 6. Multithreaded Language Translation and Currency Exchange(Author: [pangyadan])
+# 6. Multithreaded Language Translation and Currency Exchange(Author: [庞雅丹])
 - **Language Translation**: The application supports multithreaded language translation. You can see welcome messages in different languages when the application starts.
   **Note**: The English and French welcome messages are displayed using multithreaded programming.
 - **Currency Exchange**: The prices of the rooms are displayed in different currencies (USD, CAD, EUR).
@@ -146,7 +145,7 @@ ng serve
 # 7. Stopping the Application
 - Stop the Spring Boot application: Press `Ctrl + C` in the terminal where the Spring Boot application is running.
 - Stop the Angular development server: Press `Ctrl + C` in the terminal where the Angular development server is running.
-  (Author: [pangyadan])
+  (Author: [庞雅丹])
 
 
 
