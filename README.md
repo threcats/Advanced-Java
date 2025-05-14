@@ -51,7 +51,7 @@ Unit and End - to - End Testing: The application comes with built - in support f
 - **Git**: For cloning the project. Install it from Git official website.https://git-scm.com/
 
 # 2. Cloning the Project
-1. Open Git Bash or your preferred terminal: Navigate to the directory where you want to clone the project.(Author: [pangyadan])
+1. Open Git Bash or your preferred terminal: Navigate to the directory where you want to clone the project.
 2. Clone the repository: Run the following command:
 
 ```bash
@@ -62,7 +62,6 @@ git clone <repository-url>
 ** Note**: Replace `<repository-url>` with the actual URL of the Git repository.
 
 # 3. Building the Project
-
 ## 3.1 Java Back - end
 1. Navigate to the project root directory: Open a terminal in the project root directory.
 2. Build the Java project using Maven: Run the following command:
@@ -131,7 +130,7 @@ ng serve
    **Note**: The application will display the available rooms based on the selected dates.(Author: [pangyadan])
    ![图片描述](images/screenshot9.png)
 
-## 5.2 Reserving a Room --by pangyadan
+## 5.2 Reserving a Room 
 1. Select a room: In the "Available Rooms" section, find the room you want to reserve.
 2. Click the "Reserve" button: Click the "Reserve" button next to the selected room.
    **Note**: This will create a reservation for the selected room.
