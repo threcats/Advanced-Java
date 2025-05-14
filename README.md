@@ -138,7 +138,7 @@ ng serve
    ![图片描述](images/screenshot10.png)
 
 
-# 6. Multithreaded Language Translation and Currency Exchange
+# 6. Multithreaded Language Translation and Currency Exchange(Author: [pangyadan])
 - **Language Translation**: The application supports multithreaded language translation. You can see welcome messages in different languages when the application starts.
   **Note**: The English and French welcome messages are displayed using multithreaded programming.
 - **Currency Exchange**: The prices of the rooms are displayed in different currencies (USD, CAD, EUR).
